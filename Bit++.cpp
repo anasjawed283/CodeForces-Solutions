@@ -18,3 +18,4 @@ int main() {
     cout<<counter<<endl;
     return 0;
 }
+//This code is contributed by Anas Jawed
