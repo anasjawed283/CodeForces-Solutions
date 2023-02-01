@@ -5,15 +5,15 @@ int main(){
 	cin>>test;
     while(test--)
 	{
-    	long long n, count=0, start;
+    	long long n, count=0, initialization;
     	cin >> n;
     	for(int i=1; i<=9; i++)
     	{
-    		start=i;
-    		while(start<=n)
+    		initialization=i;
+    		while(initialization<=n)
     		{
     			count++;
-    			start=start*10+i;
+    			initialization=initialization*10+i;
 			}
 		}
 		cout << count << endl;
